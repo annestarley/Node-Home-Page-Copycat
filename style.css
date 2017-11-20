@@ -54,6 +54,115 @@ nav a:active  { color: silver;
             background-color: transparent;
           text-decoration: none;}
 
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.important {
+  display: flex;
+  flex: 0 0 100%;
+  background-color: #E8F5EB;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.important p {
+  font-size: 1.5em;
+  text-align: center;
+  margin: auto;
+}
+
+.green {
+  color: #067002;
+  display: inline;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 175%;
+  color: #282828
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: normal;
+  text-align: center;
+}
+
+.green-box {
+  background-color: #067002;
+  color: white;
+  text-align: center;
+  width: 250px;
+  margin-bottom: 15px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+}
+
+.green-box p {
+  color: white;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  font-size: .95em;
+}
+
+.LTS, .Current {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+main li {
+  list-style-type: none;
+  flex: 0 0 100%;
+  text-align: center;
+  display: inline;
+  margin: 1em;
+}
+
+main ul {
+  max-height: 100px;
+  flex-flow: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+main li {
+  border-right: solid 1px #067002;
+  padding-right: 1em;
+  margin-left: 0;
+  font-size: .8em;
+}
+main li:last-child {
+  border-right: 0;
+}
+
+main a:link    { color: #067002;
+            background-color: transparent;
+            text-decoration: none;}
+main a:visited { color: #067002;
+            background-color: transparent;
+            text-decoration: none;}
+main a:hover   { color: #067002;
+            background-color: transparent;
+            text-decoration: underline;}
+main a:active  { color: #067002;
+            background-color: transparent;
+          text-decoration: none;}
+
+
+
+
+
+
 @media (min-width: 468px) {
   nav ul {
     max-height: 100px;
@@ -71,5 +180,28 @@ nav a:active  { color: silver;
   nav li:last-child {
     border-right: 0;
   }
+
+}
+
+
+@media (min-width: 800px) {
+  /*.active {
+  width: 0;
+  height: 0;
+  content:"";
+  display:block;
+  /* Ads an arrow effect exploiting the way that browsers join borders together */
+  /*border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+  /* centers relative to parent */
+
+  /* Compensates for width of border (arrow) */
+  /*margin-left: -50px;
+  padding-bottom: -20px;
+}*/
+.grid {
+  width: 780px
+}
 
 }
