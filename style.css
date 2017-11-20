@@ -192,8 +192,13 @@ span a:hover   { color: white;
   nav li:last-child {
     border-right: 0;
   }
+  .myrow {
+    display: flex;
+    flex-direction: row;
+  }
 
 }
+
 
 
 
