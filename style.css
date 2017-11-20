@@ -2,11 +2,13 @@
   box-sizing: border-box;
 }
 
+
 .grid {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
+  flex: center;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -158,6 +160,16 @@ main a:active  { color: #067002;
             background-color: transparent;
           text-decoration: none;}
 
+span a:hover   { color: white;
+            background-color: #067002;
+            text-decoration: none;}
+
+
+
+
+
+
+
 
 
 
@@ -184,6 +196,14 @@ main a:active  { color: #067002;
 }
 
 
+
+
+
+
+
+
+
+
 @media (min-width: 800px) {
   /*.active {
   width: 0;
@@ -201,7 +221,8 @@ main a:active  { color: #067002;
   padding-bottom: -20px;
 }*/
 .grid {
-  width: 780px
+  width: 780px;
+  margin: auto;
 }
 
 }
