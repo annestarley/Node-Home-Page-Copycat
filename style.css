@@ -13,7 +13,6 @@
 
 nav {
   background-color: #333333;
-  color: #A2A2A2;
 }
 
 .grid-nav-img {
@@ -42,15 +41,35 @@ nav li {
 }
 
 
-nav a:link    { color: #A2A2A2;
+nav a:link    { color: silver;
             background-color: transparent;
             text-decoration: none;}
-nav a:visited { color: #A2A2A2;
+nav a:visited { color: silver;
             background-color: transparent;
             text-decoration: none;}
-nav a:hover   { color: #A2A2A2;
+nav a:hover   { color: silver;
             background-color: transparent;
             text-decoration: underline;}
-nav a:active  { color: ##A2A2A2;
+nav a:active  { color: silver;
             background-color: transparent;
           text-decoration: none;}
+
+@media (min-width: 468px) {
+  nav ul {
+    max-height: 100px;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  nav li {
+    border-right: solid 1px silver;
+    padding-right: 1em;
+    margin-left: 0;
+  }
+  nav li:last-child {
+    border-right: 0;
+  }
+
+}
