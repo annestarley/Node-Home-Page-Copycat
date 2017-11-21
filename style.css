@@ -193,7 +193,6 @@ footer p {
 
 footer li {
   list-style-type: none;
-  /*flex: 0 0 100%;*/
   display: inline;
   margin: 1em;
   font-size: .75em;
@@ -220,6 +219,11 @@ footer li {
 }
 footer li:last-child {
   border-right: 0; }
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -252,7 +256,7 @@ footer li:last-child {
     flex-direction: row;
   }
 
-  .footer-row {
+  .footer-box {
     display: flex;
     flex-direction: row;
   }
@@ -293,6 +297,10 @@ footer li:last-child {
 .footer-grid {
   width: 900px;
   margin: auto;
+}
+
+.right {
+  text-align: right;
 }
 
 }
