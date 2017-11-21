@@ -225,6 +225,12 @@ footer li:last-child {
   flex-direction: column;
 }
 
+.footer-box-rigth {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
 
 
 
@@ -259,6 +265,8 @@ footer li:last-child {
   .footer-box {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-left: -80px;
   }
 
 }
@@ -304,3 +312,8 @@ footer li:last-child {
 }
 
 }
+
+
+
+
+/* NOTES: Could have added triangle to active link. Could have gotten the footer link to right align.
