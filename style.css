@@ -265,8 +265,8 @@ footer li:last-child {
   .footer-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: -80px;
+    justify-content: space-between;
+    /*margin-left: -80px;*/
   }
 
 }
@@ -310,6 +310,26 @@ footer li:last-child {
 .right {
   text-align: right;
 }
+
+/*.active::after {
+  border-top-color: #333;
+border-top-style: solid;
+border-top-width: 14px;
+border-right-color: transparent;
+border-right-style: solid;
+border-right-width: 14px;
+border-bottom-color: transparent;
+border-bottom-style: solid;
+border-bottom-width: 14px;
+border-left-color: transparent;
+border-left-style: solid;
+border-left-width: 14px;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+}*/
 
 }
 
